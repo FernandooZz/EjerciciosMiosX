@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contenedor{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center; /*me centra el elemento boton, ademas hace que no ocupe el 100% de su ancho, por algun motivo XD */
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    width: 100%;
+    margin-bottom: 40px;
+    font-weight: 1000;
+}
+
+.boton{
+    background-color: #34495E;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
