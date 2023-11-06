@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F4F6F7;
+}
+
+body{
+    background-color: #8E44AD;
+}
+
+.contenedor{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{ font-size: 70px; }
+
+h2{ font-size: 70px; }
+
+h3{ font-size: 70px; }
+
+.oculto{
+    display: none;
+}
+
+.activo{
+    display: block;    
+}
+
+
+.cambio-color {
+    animation: cambiaColor 5s linear infinite;
+  }
+  
+  @keyframes cambiaColor {
+    0% {
+      color: red;
+    }
+    25% {
+      color: blue;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      color: orange;
+    }
+    100% {
+      color: red;
+    }
+  }
